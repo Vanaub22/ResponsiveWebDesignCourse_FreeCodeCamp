@@ -1,0 +1,75 @@
+/* To develop a survey form for freeCodeCamp certification project #1
+developed by Anuvab Chakravarty using HTML5 and CSS3 */
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+.improve,.lvl,.score{
+    text-align: left;
+}
+h2{
+    margin:0;
+    padding-left: 0;
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+fieldset,h1,p,body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+}
+textarea{
+    vertical-align:text-top;
+}
+.sub{
+    margin-left: 40%;
+    font-size: larger;
+}
+fieldset{
+    border:none;
+}
+.question{
+    margin: 0;
+    padding-bottom: 3px;
+}
+div{
+    border: 5px double rgb(101, 101, 151);
+    padding: 10px 5px;
+    /* background-color: rgb(68, 66, 66); */
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+
+}
+.desc{
+    text-align: left;
+}
+footer{
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 25px;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: rgb(72, 72, 72);
+}
+body {
+    padding: 25px 25px;
+    /* background-image: url('bgimage.jpeg');
+    background-repeat: no-repeat; */
+    background: linear-gradient(to bottom right, white, rgb(95, 107, 161), white);
+    width: 100vh;
+    margin: auto;
+    /* background-color: #1b1b32;
+    color: #f5f6f7; */
+    font-family: Tahoma;
+    font-size: 16px;
+  }

@@ -1,0 +1,91 @@
+<!-- To develop a survey form for freeCodeCamp certification project #1 -->
+<!-- developed by Anuvab Chakravarty using HTML5 and CSS3 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Page Visitor Survey Form</title>
+</head>
+
+<body>
+<div>
+    <h1 class='heading' id="title">PAGE VISITOR SURVEY</h1>
+    <p class='desc' id="description">This survey form is intended to gather constructive feedback regarding my webpage. This is my
+        first attempt at
+        designing a webpage. I hope you like it!</p>
+        <hr>
+    <form id="survey-form">
+        <fieldset>
+            <h2>User Info:</h2>
+            <label for="name" id='name-label'>
+                Enter your name:
+                <input id='name' placeholder="My Name" required name='name' type="text">
+            </label>
+            <label for="email" id='email-label'>
+                Enter your Email ID:
+                <input id='email' placeholder="abc@gmail.com" required name="email" type="email">
+            </label>
+            <label for="age" id='number-label'>
+                Enter your Age:
+                <input id='number' placeholder="Age" required name='age' type="number" max=100 min=14>
+            </label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <h2>User Expertise:</h2>
+                <p class="question">What is your level of expertise in HTML and CSS?</p>
+                <label  class="lvl" for="level"><input value="no exp" required name="level" type="radio">No Experience</label>
+                <label class="lvl" for="level"><input value="beg" required name="level" type="radio">Beginner</label>
+                <label class="lvl" for="level"><input value="intermed" required name="level" type="radio">Intermediate</label>
+                <label class="lvl" for="level"><input value="adv" required name="level" type="radio">Advanced</label>
+            <label>I am a 
+                <select id="dropdown" name="occ">
+                    <option value="">Select One</option>
+                    <option value="stud">Student</option>
+                    <option value="wp">Working Professional</option>
+                    <option value="oth">Other</option>
+                </select>
+            </label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <h2>User Experience:</h2>
+                <p class="question">How would you rate this website?</p>
+                <label class="score" for="score"><input value="5" required name="score" type="radio" checked>Excellent</label>
+                <label class="score" for="score"><input value="4" required name="score" type="radio">Good</label>
+                <label class="score" for="score"><input value="3" required name="score" type="radio">Satisfactory</label>
+                <label class="score" for="score"><input value="2" required name="score" type="radio">Fair</label>
+                <label class="score" for="score"><input value="1" required name="score" type="radio">Not good</label>
+                <label  class="score" for="score"><input value="0" required name="score" type="radio">Bad</label>
+                <br>
+                <p class="question">What are the aspects in which this site needs to improve the most?</p>
+                <label class="improve" for="improve"><input type="checkbox" name="improve" value="design">Design</label>
+                <label class="improve" for="improve"><input type="checkbox" name="improve" value="interface">Interface</label>
+                <label class="improve" for="improve"><input type="checkbox" name="improve" value="utility">Utility</label>
+                <label class="improve" for="improve"><input type="checkbox" name="improve" value="responsive">Responsiveness</label>
+                <label class="improve" for="improve"><input type="checkbox" name="improve" value="semantics">Semantics</label>
+                <label for="improve">Others(Please Specify):<input type="text" name="improve" value="others"></label>
+            <br>
+                <label for="Comments">Drop Your comments below:
+                    <textarea id="bio" name="bio" rows="3" cols="25" placeholder="I think that this Survey Form is..."></textarea>
+                  </label>
+
+        </fieldset>
+<br>
+        <input id="submit" class='sub' type="submit" value="Submit" />
+    </form>
+    <br>
+    <hr>
+    <br>
+    <footer>
+        Website developed by <a href="https://www.linkedin.com/in/anuvab-chakravarty-001b39233/">Anuvab Chakravarty</a> using HTML5 and CSS3
+    </footer>
+</div>
+
+</body>
+
+</html>
