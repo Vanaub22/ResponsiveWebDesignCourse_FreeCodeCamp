@@ -1,0 +1,56 @@
+/* Responsive web design Certification Project#2: Tribute Page for Christopher Nolan
+Developed by Anuvab Chakravarty using HTML5 and CSS3 only */
+h1{
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    display: block;
+}
+#image{
+    background-color: white;
+    display: block;
+    text-align: center;
+    margin: 8vh auto 1vh auto;
+    padding: 1vh;
+    border: 2px solid black;
+    /* to pass the freecodecamp tests, change the jpeg and use this--> max-width: 100%; 
+    I have used a different width setting because this picture happens to be a large one*/
+    max-width: 50%;
+    height:auto;
+
+}
+footer{
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.points{
+    margin: 1%;
+}
+.tag{
+    font-weight: bold;
+}
+.overview{
+    text-align:left;
+}
+.summary{
+    padding-left: 2%;
+    padding-right: auto;
+    border-bottom: 2px solid black;
+}
+#img-caption{
+    text-align:center;
+}
+.white{
+    border-bottom: 2px double white;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 1vh;
+}
+main{
+    background: linear-gradient(black,white 40%,rgba(160, 160, 160, 0.785) 99%);
+    margin: 5px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
