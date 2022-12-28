@@ -1,0 +1,75 @@
+/* Responsive Web Design Certification Project#3: Technical Documentation Page
+Developed by Anuvab Chakravarty using HTML5 and CSS3 only */
+h1 {
+    margin-left: 18px;
+}
+
+.mainhead {
+    font-size: xx-large;
+}
+
+.subhead {
+    font-weight: 500;
+    border: 1px solid black;
+    background-color: #f1f1f1;
+    font-size: large;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    /* color: #f1f1f1; */
+    /* background-color: rgba(7, 59, 20, 0.715); */
+    border: 2px solid black;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+a:active {
+    color: rgb(24, 10, 99);
+}
+
+a:hover {
+    color: rgb(0, 206, 0);
+}
+
+a:visited {
+    color: rgb(33, 50, 0);
+}
+
+.nav-link {
+    /* font-size: large; */
+    padding: 20px;
+    /* background-color: blue; */
+}
+
+code {
+    padding: 3px;
+    font-family: monospace;
+    /* background-color: green; */
+    /* color: whitesmoke; */
+    border-radius: 5px;
+}
+
+.content {
+    margin-left: 21%;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        background: linear-gradient(white, rgb(149, 149, 211), white);
+    }
+}
+
+span {
+    background-color: rgba(46, 66, 128, 0.288);
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,118 @@
+<!-- Responsive Web Design Certification Project#3: Technical Documentation Page
+Developed by Anuvab Chakravarty using HTML5 and CSS3 only -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in Python - Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main id="main-doc">
+        <div>
+            <nav id="navbar">
+                <ul class="nav">
+                    <header>
+                        <h1 class="mainhead">Python Lists</h1>
+                    </header>
+                    <hr>
+                    <li><a href="#Lists_in_Python" class="nav-link">Lists in Python</a></li>
+                    <hr>
+                    <li><a href="#List_Items" class="nav-link">List Items</a>
+                        <hr>
+                    <li><a href="#Ordered" class="nav-link">Ordered</a></li>
+                    <hr>
+                    <li><a href="#List_Length" class="nav-link">List Length</a></li>
+                    <hr>
+                    <li><a href="#Data_Types_in_a_List" class="nav-link">Data Types in a List</a></li>
+                    <hr>
+                    <li><a href="#List_Methods" class="nav-link">List Methods</a></li>
+                    <hr>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <section id="Lists_in_Python" class="main-section">
+                <header class="subhead">Lists in Python</header>
+                <p>Lists are used to store multiple items in a single variable.</p>
+                <p>There are 4 built-in data types in Python used to store collections of data.</p>
+                <ul>
+                    <li>Lists</li>
+                    <li>Tuples</li>
+                    <li>Sets</li>
+                    <li>Dictionaries</li>
+                </ul>
+                <p>Lists are created using square brackets.</p>
+                <code>mylist = ["apple", "banana", "cherry"]<br>
+                    thislist = ["apple", "banana", "cherry"]<br>
+                    print(thislist)<br></code>
+            </section>
+            <hr>
+            <section id="List_Items" class="main-section">
+                <header class="subhead">List Items</header>
+                <p>List items are ordered, changeable and allow duplicate values.</p>
+                <p>List items are indexed, the first item has index [0], the second item has index [1] etc.</p>
+                <p>Since lists are indexed, lists can have items with the same value</p>
+                <code>thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+                    <br>print(thislist)<br></code>
+            </section>
+            <hr>
+            <section id="Ordered" class="main-section">
+                <header class="subhead">Ordered</header>
+                <p>When we say that lists are ordered, it means that the items have a defined order, and that order will
+                    not
+                    change.</p>
+                <p>If you add new items to a list, the new items will be placed at the end of the list.</p>
+                <code>thislist.append("apples")<br></code>
+            </section>
+            <hr>
+            <section id="List_Length" class="main-section">
+                <header class="subhead">List Length</header>
+                <p>To determine how many items a list has, use the len() function:</p>
+                <code>thislist = ["apple", "banana", "cherry"]<br>
+                    print(len(thislist))<br></code>
+            </section>
+            <hr>
+            <section id="Data_Types_in_a_List" class="main-section">
+                <header class="subhead">Data Types in a List</header>
+                <p>List items can be of any data type.</p>
+                <p>A list can contain different data types.</p>
+                <code>list1 = ["apple", "banana", "cherry"]
+                    <br>
+                    list2 = [1, 5, 7, 9, 3]
+                    <br>
+                    list3 = [True, False, False]
+                <br>
+                list1 = ["abc", 34, True, 40, "male"]
+                <br>
+            </code>
+            </section>
+            <hr>
+            <section id="List_Methods" class="main-section">
+                <header class="subhead">List Methods</header>
+                <p>Some of the popular methods used on lists in Python are:</p>
+                <ul>
+                    <li><span>append():</span> Adds an element at the end of the list</li>
+                    <br>
+                    <li><span>clear:</span> Removes all the elements from the list</li>
+                    <br>
+                    <li><span>copy():</span> Returns a copy of the list</li>
+                    <br>
+                    <li><span>extend():</span> Add the elements of a list (or any iterable), to the end of the current
+                        list
+                    </li>
+                    <br>
+                    <li><span>sort():</span> Sorts the list</li>
+                    <br>
+                </ul>
+            </section>
+            <hr>
+        </div>
+    </main>
+</body>
+
+</html>
