@@ -1,0 +1,86 @@
+/* Responsive web design Certification Project #4: Product Landing Page
+Developed by Anuvab Chakravarty using HTML5 and CSS3 only */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    background: linear-gradient(white, rgb(217, 192, 255), white);
+}
+
+
+header {
+    background-color: rgb(217, 192, 255);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+}
+
+.logoimg {
+    float: right;
+}
+
+.heading {
+    margin-top: 50px;
+    padding: 5px;
+    width: 100%;
+}
+
+.gallery {
+    display: flexbox;
+}
+
+span {
+    font-style: italic;
+}
+
+h1 {
+    display: block;
+    align-content: center;
+    color: black;
+}
+
+ul,
+#nav-bar {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px 10px;
+    border-right: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+li a:hover {
+    text-transform: capitalize;
+    background-color: rgb(50, 8, 53);
+    color: aquamarine;
+}
+
+#video {
+    position: static;
+    top: 1vh;
+    left: 1vh;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1199px) {
+    * {
+        font-weight: 300;
+    }
+}
