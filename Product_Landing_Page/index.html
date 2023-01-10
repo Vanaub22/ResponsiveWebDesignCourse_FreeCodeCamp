@@ -1,0 +1,82 @@
+<!-- Responsive web design Certification Project #4: Product Landing Page
+Developed by Anuvab Chakravarty using HTML5 and CSS3 only -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing - Dell XPS 13</title>
+</head>
+
+<body>
+    <header id="header">
+        <img class='logoimg' src="https://1000logos.net/wp-content/uploads/2017/07/Dell-Logo.png" height='30' width="60"
+            alt="dell logo" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#Build">Build Quality</a></li>
+                <li><a class="nav-link" href="#performance">Performance</a></li>
+                <li><a class="nav-link" href="#Specs">Other Specs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="gallery">
+            <h1 class="heading">Dell XPS 13 - <span>The future is here</span></h1>
+            <iframe id="video" src="https://www.youtube.com/embed/7WrHNF9KKso" style="height:200px;width:300px;"
+                title="Product video"></iframe>
+            <img src="https://cdn1.smartprix.com/rx-i8FO34lHa-w420-h420/dell-xps-13-9300-lap.jpg" height='200'
+                width="300" alt="dell logo">
+        </div>
+        <hr>
+        <div id="Build">
+            <h2>Build Quality - Sturdy but Light</h2>
+            <p>The minimalist and durable design, constructed with machined (CNC) aluminum, is inspired by nature and
+                comes in Sky blue color. Tonal, muted, natural color minimizes contrast on the interior, for a timeless
+                look and feel.</p>
+        </div>
+        <hr>
+        <div id="performance">
+            <h2>Performance - All Work and All Play</h2>
+            <p>Unlock 1.5x higher performance than the previous XPS 13 with the latest 12th Gen Intel® processors.
+
+                Customize your laptop’s performance to suit your need with the built-in Dell Performance application.
+                Select from four different modes - Quiet, Ultra-Performance, Cool or Optimized.</p>
+        </div>
+        <hr>
+        <div id="Specs">
+            <h2>Specs - <span>Things you have never seen before</span></h2>
+            <div>
+                <h3>The ultimate on-the-go laptop</h3>
+                <p>Our thinnest and lightest 13-inch XPS is built for a lifestyle on the move. Expect long battery life
+                    from both panel options when streaming on the Netflix app for Windows 11: the FHD+ non-touch display
+                    offers up to 12 hours, and the 4K+ display gets you up to 7 hours</p>
+            </div>
+        </div>
+        <hr>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <fieldset>
+                <h2>User Info:</h2>
+                <label for="name" id='name-label'>
+                    Enter your name:
+                    <input id='name' placeholder="My Name" required name='name' type="text">
+                </label>
+                <label for="email" id='email-label'>
+                    Enter your Email ID:
+                    <input id='email' placeholder="abc@gmail.com" required name="email" type="email">
+                </label>
+                <label for="age" id='number-label'>
+                    Enter your Age:
+                    <input id='number' placeholder="Age" required name='age' type="number" max=100 min=14>
+                </label>
+                <br>
+                <input id="submit" class='sub' type="submit" value="Submit" />
+            </fieldset>
+
+    </main>
+</body>
+
+</html>
