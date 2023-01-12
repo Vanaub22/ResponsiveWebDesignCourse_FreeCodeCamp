@@ -1,0 +1,69 @@
+/* Responsive Web Design Certification Project #5: Portfolio Webpage for XYZ
+Developed by Anuvab Chakravarty using HTML5 and CSS3 only */
+* {
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
+#navbar {
+    font-size: medium;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(211, 92, 92);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+.nav-list li {
+    float: right;
+    margin-left: 1%;
+    display: block;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+#welcome-section {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+@media only screen and (max-width: 1199px) {
+    * {
+        font-weight: 300;
+    }
+}
+.nav-link{
+    padding: 5px;
+}
+.nav-link:hover{
+    transform: scale(2.0);
+    background-color: brown;
+    color: white
+}
+.project-tile{
+    display: block;
+    padding: 20px;
+    background-color: rgb(189, 144, 128);
+    box-shadow:10px 20px #3a3d40c1;
+    border:2px solid #181719;
+}
+#projects{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
