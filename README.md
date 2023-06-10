@@ -7,4 +7,4 @@ It has all the **15 Course Projects** that are to be completed as a part of the 
  - Click here to view my [FreeCodeCamp Profile](https://www.freecodecamp.org/Vanaub22) 
  - Click here to view my Responsive Web Design [Course Completion Certificate](https://www.freecodecamp.org/certification/Vanaub22/responsive-web-design)
  
- *My Certification Projects are quite entry-level in terms of design. However, they satisfy all the criteria to be eligible for the certificate.*
+ *My Certification Projects are quite entry-level in terms of design. However, they satisfy all the conditions to be eligible for the certificate.*
